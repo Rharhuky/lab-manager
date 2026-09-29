@@ -1,0 +1,945 @@
+{
+  "pbtResults": {
+    "7.4 Escrever property test para `LaboratoryService` (Property 4)": {
+      "status": "passed",
+      "lastRunTimestamp": 1790705868446
+    },
+    "3.2 Escrever property test para `JwtService` (Property 2)": {
+      "status": "passed",
+      "lastRunTimestamp": 1790705870031
+    },
+    "4.3 Escrever property test para `AuthService` (Property 1)": {
+      "status": "passed",
+      "lastRunTimestamp": 1790706173441
+    },
+    "5.3 Escrever property test para `ErrorHandler` (Property 10)": {
+      "status": "not_run",
+      "lastRunTimestamp": 1790706530420
+    },
+    "3.4 Escrever property test para `SecurityFilter` (Property 3)": {
+      "status": "passed",
+      "lastRunTimestamp": 1790706658892
+    }
+  },
+  "executionHistory": {
+    "1. Configurar projeto backend (Spring Boot)": [
+      {
+        "executionId": "0b3d7abc-abe5-4462-8f1f-d6b4978898de",
+        "chatSessionId": "sess_37c841c3-e554-4753-8412-2c341a63201d",
+        "timestamp": 1790680688705
+      },
+      {
+        "executionId": "0b3d7abc-abe5-4462-8f1f-d6b4978898de",
+        "chatSessionId": "sess_37c841c3-e554-4753-8412-2c341a63201d",
+        "timestamp": 1790680701300
+      }
+    ],
+    "2.1 Criar entidade `User` e enum `UserRole`": [
+      {
+        "executionId": "0b3d7abc-abe5-4462-8f1f-d6b4978898de",
+        "chatSessionId": "sess_37c841c3-e554-4753-8412-2c341a63201d",
+        "timestamp": 1790680688813
+      },
+      {
+        "executionId": "0b3d7abc-abe5-4462-8f1f-d6b4978898de",
+        "chatSessionId": "sess_37c841c3-e554-4753-8412-2c341a63201d",
+        "timestamp": 1790680701821
+      },
+      {
+        "executionId": "15ce3892-2dca-40bf-aa00-6f5a28856e03",
+        "chatSessionId": "sess_ee8e8999-1074-4bcd-9f67-42b3b2c5ea5b",
+        "timestamp": 1790683818133
+      },
+      {
+        "executionId": "15ce3892-2dca-40bf-aa00-6f5a28856e03",
+        "chatSessionId": "sess_ee8e8999-1074-4bcd-9f67-42b3b2c5ea5b",
+        "timestamp": 1790684583306
+      }
+    ],
+    "2.2 Criar entidade `Laboratory`": [
+      {
+        "executionId": "0b3d7abc-abe5-4462-8f1f-d6b4978898de",
+        "chatSessionId": "sess_37c841c3-e554-4753-8412-2c341a63201d",
+        "timestamp": 1790680688859
+      },
+      {
+        "executionId": "0b3d7abc-abe5-4462-8f1f-d6b4978898de",
+        "chatSessionId": "sess_37c841c3-e554-4753-8412-2c341a63201d",
+        "timestamp": 1790680702397
+      }
+    ],
+    "2.3 Criar entidade `Reservation`": [
+      {
+        "executionId": "0b3d7abc-abe5-4462-8f1f-d6b4978898de",
+        "chatSessionId": "sess_37c841c3-e554-4753-8412-2c341a63201d",
+        "timestamp": 1790680688890
+      },
+      {
+        "executionId": "0b3d7abc-abe5-4462-8f1f-d6b4978898de",
+        "chatSessionId": "sess_37c841c3-e554-4753-8412-2c341a63201d",
+        "timestamp": 1790680703057
+      }
+    ],
+    "2.4 Criar schema SQL e migration": [
+      {
+        "executionId": "0b3d7abc-abe5-4462-8f1f-d6b4978898de",
+        "chatSessionId": "sess_37c841c3-e554-4753-8412-2c341a63201d",
+        "timestamp": 1790680688924
+      }
+    ],
+    "3.1 Implementar `JwtService`": [
+      {
+        "executionId": "0b3d7abc-abe5-4462-8f1f-d6b4978898de",
+        "chatSessionId": "sess_37c841c3-e554-4753-8412-2c341a63201d",
+        "timestamp": 1790680688981
+      },
+      {
+        "executionId": "15ce3892-2dca-40bf-aa00-6f5a28856e03",
+        "chatSessionId": "sess_ee8e8999-1074-4bcd-9f67-42b3b2c5ea5b",
+        "timestamp": 1790683809262
+      },
+      {
+        "executionId": "15ce3892-2dca-40bf-aa00-6f5a28856e03",
+        "chatSessionId": "sess_ee8e8999-1074-4bcd-9f67-42b3b2c5ea5b",
+        "timestamp": 1790684590200
+      },
+      {
+        "executionId": "15ce3892-2dca-40bf-aa00-6f5a28856e03",
+        "chatSessionId": "sess_ee8e8999-1074-4bcd-9f67-42b3b2c5ea5b",
+        "timestamp": 1790689055812
+      }
+    ],
+    "3.3 Implementar `SecurityFilter` (OncePerRequestFilter)": [
+      {
+        "executionId": "0b3d7abc-abe5-4462-8f1f-d6b4978898de",
+        "chatSessionId": "sess_37c841c3-e554-4753-8412-2c341a63201d",
+        "timestamp": 1790680689027
+      },
+      {
+        "executionId": "15ce3892-2dca-40bf-aa00-6f5a28856e03",
+        "chatSessionId": "sess_ee8e8999-1074-4bcd-9f67-42b3b2c5ea5b",
+        "timestamp": 1790683809346
+      },
+      {
+        "executionId": "15ce3892-2dca-40bf-aa00-6f5a28856e03",
+        "chatSessionId": "sess_ee8e8999-1074-4bcd-9f67-42b3b2c5ea5b",
+        "timestamp": 1790689070425
+      },
+      {
+        "executionId": "d6a406d4-5e07-43f5-93a6-337c80850a61",
+        "chatSessionId": "sess_fbef26df-d20e-42e6-a6d1-efa038ca4849",
+        "timestamp": 1790698844101
+      },
+      {
+        "executionId": "d6a406d4-5e07-43f5-93a6-337c80850a61",
+        "chatSessionId": "sess_fbef26df-d20e-42e6-a6d1-efa038ca4849",
+        "timestamp": 1790698854146
+      }
+    ],
+    "3.5 Implementar `SecurityConfig`": [
+      {
+        "executionId": "0b3d7abc-abe5-4462-8f1f-d6b4978898de",
+        "chatSessionId": "sess_37c841c3-e554-4753-8412-2c341a63201d",
+        "timestamp": 1790680689058
+      },
+      {
+        "executionId": "15ce3892-2dca-40bf-aa00-6f5a28856e03",
+        "chatSessionId": "sess_ee8e8999-1074-4bcd-9f67-42b3b2c5ea5b",
+        "timestamp": 1790683809402
+      },
+      {
+        "executionId": "d6a406d4-5e07-43f5-93a6-337c80850a61",
+        "chatSessionId": "sess_fbef26df-d20e-42e6-a6d1-efa038ca4849",
+        "timestamp": 1790698844186
+      },
+      {
+        "executionId": "d6a406d4-5e07-43f5-93a6-337c80850a61",
+        "chatSessionId": "sess_fbef26df-d20e-42e6-a6d1-efa038ca4849",
+        "timestamp": 1790698854865
+      }
+    ],
+    "4.1 Criar DTOs de autenticação": [
+      {
+        "executionId": "0b3d7abc-abe5-4462-8f1f-d6b4978898de",
+        "chatSessionId": "sess_37c841c3-e554-4753-8412-2c341a63201d",
+        "timestamp": 1790680689090
+      },
+      {
+        "executionId": "15ce3892-2dca-40bf-aa00-6f5a28856e03",
+        "chatSessionId": "sess_ee8e8999-1074-4bcd-9f67-42b3b2c5ea5b",
+        "timestamp": 1790683809436
+      },
+      {
+        "executionId": "15ce3892-2dca-40bf-aa00-6f5a28856e03",
+        "chatSessionId": "sess_ee8e8999-1074-4bcd-9f67-42b3b2c5ea5b",
+        "timestamp": 1790689073926
+      },
+      {
+        "executionId": "d6a406d4-5e07-43f5-93a6-337c80850a61",
+        "chatSessionId": "sess_fbef26df-d20e-42e6-a6d1-efa038ca4849",
+        "timestamp": 1790698844256
+      },
+      {
+        "executionId": "d6a406d4-5e07-43f5-93a6-337c80850a61",
+        "chatSessionId": "sess_fbef26df-d20e-42e6-a6d1-efa038ca4849",
+        "timestamp": 1790698855677
+      }
+    ],
+    "4.2 Implementar `AuthService`": [
+      {
+        "executionId": "0b3d7abc-abe5-4462-8f1f-d6b4978898de",
+        "chatSessionId": "sess_37c841c3-e554-4753-8412-2c341a63201d",
+        "timestamp": 1790680689122
+      },
+      {
+        "executionId": "15ce3892-2dca-40bf-aa00-6f5a28856e03",
+        "chatSessionId": "sess_ee8e8999-1074-4bcd-9f67-42b3b2c5ea5b",
+        "timestamp": 1790683809467
+      },
+      {
+        "executionId": "d6a406d4-5e07-43f5-93a6-337c80850a61",
+        "chatSessionId": "sess_fbef26df-d20e-42e6-a6d1-efa038ca4849",
+        "timestamp": 1790698844284
+      }
+    ],
+    "4.4 Implementar `AuthController`": [
+      {
+        "executionId": "0b3d7abc-abe5-4462-8f1f-d6b4978898de",
+        "chatSessionId": "sess_37c841c3-e554-4753-8412-2c341a63201d",
+        "timestamp": 1790680689156
+      },
+      {
+        "executionId": "15ce3892-2dca-40bf-aa00-6f5a28856e03",
+        "chatSessionId": "sess_ee8e8999-1074-4bcd-9f67-42b3b2c5ea5b",
+        "timestamp": 1790683809499
+      },
+      {
+        "executionId": "d6a406d4-5e07-43f5-93a6-337c80850a61",
+        "chatSessionId": "sess_fbef26df-d20e-42e6-a6d1-efa038ca4849",
+        "timestamp": 1790698844318
+      }
+    ],
+    "5.1 Criar exceções customizadas e `ErrorResponse`": [
+      {
+        "executionId": "0b3d7abc-abe5-4462-8f1f-d6b4978898de",
+        "chatSessionId": "sess_37c841c3-e554-4753-8412-2c341a63201d",
+        "timestamp": 1790680689179
+      },
+      {
+        "executionId": "15ce3892-2dca-40bf-aa00-6f5a28856e03",
+        "chatSessionId": "sess_ee8e8999-1074-4bcd-9f67-42b3b2c5ea5b",
+        "timestamp": 1790683809545
+      },
+      {
+        "executionId": "d6a406d4-5e07-43f5-93a6-337c80850a61",
+        "chatSessionId": "sess_fbef26df-d20e-42e6-a6d1-efa038ca4849",
+        "timestamp": 1790698844346
+      }
+    ],
+    "5.2 Implementar `ErrorHandler` (`@RestControllerAdvice`)": [
+      {
+        "executionId": "0b3d7abc-abe5-4462-8f1f-d6b4978898de",
+        "chatSessionId": "sess_37c841c3-e554-4753-8412-2c341a63201d",
+        "timestamp": 1790680689210
+      },
+      {
+        "executionId": "15ce3892-2dca-40bf-aa00-6f5a28856e03",
+        "chatSessionId": "sess_ee8e8999-1074-4bcd-9f67-42b3b2c5ea5b",
+        "timestamp": 1790683809582
+      },
+      {
+        "executionId": "d6a406d4-5e07-43f5-93a6-337c80850a61",
+        "chatSessionId": "sess_fbef26df-d20e-42e6-a6d1-efa038ca4849",
+        "timestamp": 1790698844384
+      }
+    ],
+    "6. Checkpoint — Backend base": [
+      {
+        "executionId": "0b3d7abc-abe5-4462-8f1f-d6b4978898de",
+        "chatSessionId": "sess_37c841c3-e554-4753-8412-2c341a63201d",
+        "timestamp": 1790680689241
+      },
+      {
+        "executionId": "15ce3892-2dca-40bf-aa00-6f5a28856e03",
+        "chatSessionId": "sess_ee8e8999-1074-4bcd-9f67-42b3b2c5ea5b",
+        "timestamp": 1790683809610
+      },
+      {
+        "executionId": "d6a406d4-5e07-43f5-93a6-337c80850a61",
+        "chatSessionId": "sess_fbef26df-d20e-42e6-a6d1-efa038ca4849",
+        "timestamp": 1790698844414
+      }
+    ],
+    "7.1 Criar DTOs de laboratório": [
+      {
+        "executionId": "0b3d7abc-abe5-4462-8f1f-d6b4978898de",
+        "chatSessionId": "sess_37c841c3-e554-4753-8412-2c341a63201d",
+        "timestamp": 1790680689265
+      },
+      {
+        "executionId": "15ce3892-2dca-40bf-aa00-6f5a28856e03",
+        "chatSessionId": "sess_ee8e8999-1074-4bcd-9f67-42b3b2c5ea5b",
+        "timestamp": 1790683809635
+      },
+      {
+        "executionId": "15ce3892-2dca-40bf-aa00-6f5a28856e03",
+        "chatSessionId": "sess_ee8e8999-1074-4bcd-9f67-42b3b2c5ea5b",
+        "timestamp": 1790689077419
+      },
+      {
+        "executionId": "d6a406d4-5e07-43f5-93a6-337c80850a61",
+        "chatSessionId": "sess_fbef26df-d20e-42e6-a6d1-efa038ca4849",
+        "timestamp": 1790698844443
+      },
+      {
+        "executionId": "d6a406d4-5e07-43f5-93a6-337c80850a61",
+        "chatSessionId": "sess_fbef26df-d20e-42e6-a6d1-efa038ca4849",
+        "timestamp": 1790698856531
+      }
+    ],
+    "7.2 Implementar consultas customizadas em `ReservationRepository`": [
+      {
+        "executionId": "0b3d7abc-abe5-4462-8f1f-d6b4978898de",
+        "chatSessionId": "sess_37c841c3-e554-4753-8412-2c341a63201d",
+        "timestamp": 1790680689297
+      },
+      {
+        "executionId": "15ce3892-2dca-40bf-aa00-6f5a28856e03",
+        "chatSessionId": "sess_ee8e8999-1074-4bcd-9f67-42b3b2c5ea5b",
+        "timestamp": 1790683809666
+      },
+      {
+        "executionId": "d6a406d4-5e07-43f5-93a6-337c80850a61",
+        "chatSessionId": "sess_fbef26df-d20e-42e6-a6d1-efa038ca4849",
+        "timestamp": 1790698844471
+      }
+    ],
+    "7.3 Implementar `LaboratoryService`": [
+      {
+        "executionId": "0b3d7abc-abe5-4462-8f1f-d6b4978898de",
+        "chatSessionId": "sess_37c841c3-e554-4753-8412-2c341a63201d",
+        "timestamp": 1790680689330
+      },
+      {
+        "executionId": "15ce3892-2dca-40bf-aa00-6f5a28856e03",
+        "chatSessionId": "sess_ee8e8999-1074-4bcd-9f67-42b3b2c5ea5b",
+        "timestamp": 1790683809719
+      },
+      {
+        "executionId": "d6a406d4-5e07-43f5-93a6-337c80850a61",
+        "chatSessionId": "sess_fbef26df-d20e-42e6-a6d1-efa038ca4849",
+        "timestamp": 1790698844502
+      }
+    ],
+    "7.6 Implementar `LaboratoryController`": [
+      {
+        "executionId": "0b3d7abc-abe5-4462-8f1f-d6b4978898de",
+        "chatSessionId": "sess_37c841c3-e554-4753-8412-2c341a63201d",
+        "timestamp": 1790680689356
+      },
+      {
+        "executionId": "15ce3892-2dca-40bf-aa00-6f5a28856e03",
+        "chatSessionId": "sess_ee8e8999-1074-4bcd-9f67-42b3b2c5ea5b",
+        "timestamp": 1790683809746
+      },
+      {
+        "executionId": "d6a406d4-5e07-43f5-93a6-337c80850a61",
+        "chatSessionId": "sess_fbef26df-d20e-42e6-a6d1-efa038ca4849",
+        "timestamp": 1790698844528
+      }
+    ],
+    "8.1 Criar DTOs de reserva": [
+      {
+        "executionId": "0b3d7abc-abe5-4462-8f1f-d6b4978898de",
+        "chatSessionId": "sess_37c841c3-e554-4753-8412-2c341a63201d",
+        "timestamp": 1790680689385
+      },
+      {
+        "executionId": "15ce3892-2dca-40bf-aa00-6f5a28856e03",
+        "chatSessionId": "sess_ee8e8999-1074-4bcd-9f67-42b3b2c5ea5b",
+        "timestamp": 1790683809776
+      },
+      {
+        "executionId": "15ce3892-2dca-40bf-aa00-6f5a28856e03",
+        "chatSessionId": "sess_ee8e8999-1074-4bcd-9f67-42b3b2c5ea5b",
+        "timestamp": 1790689080820
+      },
+      {
+        "executionId": "d6a406d4-5e07-43f5-93a6-337c80850a61",
+        "chatSessionId": "sess_fbef26df-d20e-42e6-a6d1-efa038ca4849",
+        "timestamp": 1790698844554
+      },
+      {
+        "executionId": "d6a406d4-5e07-43f5-93a6-337c80850a61",
+        "chatSessionId": "sess_fbef26df-d20e-42e6-a6d1-efa038ca4849",
+        "timestamp": 1790698857383
+      }
+    ],
+    "8.2 Implementar `ReservationService`": [
+      {
+        "executionId": "0b3d7abc-abe5-4462-8f1f-d6b4978898de",
+        "chatSessionId": "sess_37c841c3-e554-4753-8412-2c341a63201d",
+        "timestamp": 1790680689414
+      },
+      {
+        "executionId": "15ce3892-2dca-40bf-aa00-6f5a28856e03",
+        "chatSessionId": "sess_ee8e8999-1074-4bcd-9f67-42b3b2c5ea5b",
+        "timestamp": 1790683809801
+      },
+      {
+        "executionId": "d6a406d4-5e07-43f5-93a6-337c80850a61",
+        "chatSessionId": "sess_fbef26df-d20e-42e6-a6d1-efa038ca4849",
+        "timestamp": 1790698844583
+      }
+    ],
+    "8.7 Implementar `ReservationController`": [
+      {
+        "executionId": "0b3d7abc-abe5-4462-8f1f-d6b4978898de",
+        "chatSessionId": "sess_37c841c3-e554-4753-8412-2c341a63201d",
+        "timestamp": 1790680689440
+      },
+      {
+        "executionId": "15ce3892-2dca-40bf-aa00-6f5a28856e03",
+        "chatSessionId": "sess_ee8e8999-1074-4bcd-9f67-42b3b2c5ea5b",
+        "timestamp": 1790683809833
+      },
+      {
+        "executionId": "d6a406d4-5e07-43f5-93a6-337c80850a61",
+        "chatSessionId": "sess_fbef26df-d20e-42e6-a6d1-efa038ca4849",
+        "timestamp": 1790698844612
+      }
+    ],
+    "9.1 Implementar testes de integração para `AuthController`": [
+      {
+        "executionId": "0b3d7abc-abe5-4462-8f1f-d6b4978898de",
+        "chatSessionId": "sess_37c841c3-e554-4753-8412-2c341a63201d",
+        "timestamp": 1790680689464
+      },
+      {
+        "executionId": "15ce3892-2dca-40bf-aa00-6f5a28856e03",
+        "chatSessionId": "sess_ee8e8999-1074-4bcd-9f67-42b3b2c5ea5b",
+        "timestamp": 1790683809861
+      },
+      {
+        "executionId": "d6a406d4-5e07-43f5-93a6-337c80850a61",
+        "chatSessionId": "sess_fbef26df-d20e-42e6-a6d1-efa038ca4849",
+        "timestamp": 1790698844637
+      }
+    ],
+    "9.2 Implementar testes de integração para `LaboratoryController`": [
+      {
+        "executionId": "0b3d7abc-abe5-4462-8f1f-d6b4978898de",
+        "chatSessionId": "sess_37c841c3-e554-4753-8412-2c341a63201d",
+        "timestamp": 1790680689491
+      },
+      {
+        "executionId": "15ce3892-2dca-40bf-aa00-6f5a28856e03",
+        "chatSessionId": "sess_ee8e8999-1074-4bcd-9f67-42b3b2c5ea5b",
+        "timestamp": 1790683809891
+      },
+      {
+        "executionId": "d6a406d4-5e07-43f5-93a6-337c80850a61",
+        "chatSessionId": "sess_fbef26df-d20e-42e6-a6d1-efa038ca4849",
+        "timestamp": 1790698844669
+      }
+    ],
+    "9.3 Implementar testes de integração para `ReservationController`": [
+      {
+        "executionId": "0b3d7abc-abe5-4462-8f1f-d6b4978898de",
+        "chatSessionId": "sess_37c841c3-e554-4753-8412-2c341a63201d",
+        "timestamp": 1790680689515
+      },
+      {
+        "executionId": "15ce3892-2dca-40bf-aa00-6f5a28856e03",
+        "chatSessionId": "sess_ee8e8999-1074-4bcd-9f67-42b3b2c5ea5b",
+        "timestamp": 1790683809916
+      },
+      {
+        "executionId": "d6a406d4-5e07-43f5-93a6-337c80850a61",
+        "chatSessionId": "sess_fbef26df-d20e-42e6-a6d1-efa038ca4849",
+        "timestamp": 1790698844714
+      }
+    ],
+    "10. Checkpoint — Backend completo": [
+      {
+        "executionId": "0b3d7abc-abe5-4462-8f1f-d6b4978898de",
+        "chatSessionId": "sess_37c841c3-e554-4753-8412-2c341a63201d",
+        "timestamp": 1790680689543
+      },
+      {
+        "executionId": "15ce3892-2dca-40bf-aa00-6f5a28856e03",
+        "chatSessionId": "sess_ee8e8999-1074-4bcd-9f67-42b3b2c5ea5b",
+        "timestamp": 1790683809948
+      },
+      {
+        "executionId": "d6a406d4-5e07-43f5-93a6-337c80850a61",
+        "chatSessionId": "sess_fbef26df-d20e-42e6-a6d1-efa038ca4849",
+        "timestamp": 1790698844752
+      }
+    ],
+    "11. Configurar projeto frontend (Vite + React + TypeScript)": [
+      {
+        "executionId": "0b3d7abc-abe5-4462-8f1f-d6b4978898de",
+        "chatSessionId": "sess_37c841c3-e554-4753-8412-2c341a63201d",
+        "timestamp": 1790680689573
+      },
+      {
+        "executionId": "15ce3892-2dca-40bf-aa00-6f5a28856e03",
+        "chatSessionId": "sess_ee8e8999-1074-4bcd-9f67-42b3b2c5ea5b",
+        "timestamp": 1790683809976
+      }
+    ],
+    "12.1 Criar tipos de domínio": [
+      {
+        "executionId": "0b3d7abc-abe5-4462-8f1f-d6b4978898de",
+        "chatSessionId": "sess_37c841c3-e554-4753-8412-2c341a63201d",
+        "timestamp": 1790680689608
+      },
+      {
+        "executionId": "0b3d7abc-abe5-4462-8f1f-d6b4978898de",
+        "chatSessionId": "sess_37c841c3-e554-4753-8412-2c341a63201d",
+        "timestamp": 1790680703324
+      },
+      {
+        "executionId": "15ce3892-2dca-40bf-aa00-6f5a28856e03",
+        "chatSessionId": "sess_ee8e8999-1074-4bcd-9f67-42b3b2c5ea5b",
+        "timestamp": 1790683810002
+      },
+      {
+        "executionId": "15ce3892-2dca-40bf-aa00-6f5a28856e03",
+        "chatSessionId": "sess_ee8e8999-1074-4bcd-9f67-42b3b2c5ea5b",
+        "timestamp": 1790683821444
+      },
+      {
+        "executionId": "15ce3892-2dca-40bf-aa00-6f5a28856e03",
+        "chatSessionId": "sess_ee8e8999-1074-4bcd-9f67-42b3b2c5ea5b",
+        "timestamp": 1790684586513
+      }
+    ],
+    "13.1 Implementar `axiosClient`": [
+      {
+        "executionId": "0b3d7abc-abe5-4462-8f1f-d6b4978898de",
+        "chatSessionId": "sess_37c841c3-e554-4753-8412-2c341a63201d",
+        "timestamp": 1790680689642
+      },
+      {
+        "executionId": "15ce3892-2dca-40bf-aa00-6f5a28856e03",
+        "chatSessionId": "sess_ee8e8999-1074-4bcd-9f67-42b3b2c5ea5b",
+        "timestamp": 1790683810033
+      },
+      {
+        "executionId": "15ce3892-2dca-40bf-aa00-6f5a28856e03",
+        "chatSessionId": "sess_ee8e8999-1074-4bcd-9f67-42b3b2c5ea5b",
+        "timestamp": 1790684593453
+      },
+      {
+        "executionId": "15ce3892-2dca-40bf-aa00-6f5a28856e03",
+        "chatSessionId": "sess_ee8e8999-1074-4bcd-9f67-42b3b2c5ea5b",
+        "timestamp": 1790689059222
+      }
+    ],
+    "13.2 Implementar `authStore`": [
+      {
+        "executionId": "0b3d7abc-abe5-4462-8f1f-d6b4978898de",
+        "chatSessionId": "sess_37c841c3-e554-4753-8412-2c341a63201d",
+        "timestamp": 1790680689708
+      },
+      {
+        "executionId": "15ce3892-2dca-40bf-aa00-6f5a28856e03",
+        "chatSessionId": "sess_ee8e8999-1074-4bcd-9f67-42b3b2c5ea5b",
+        "timestamp": 1790683810060
+      },
+      {
+        "executionId": "15ce3892-2dca-40bf-aa00-6f5a28856e03",
+        "chatSessionId": "sess_ee8e8999-1074-4bcd-9f67-42b3b2c5ea5b",
+        "timestamp": 1790684596914
+      },
+      {
+        "executionId": "15ce3892-2dca-40bf-aa00-6f5a28856e03",
+        "chatSessionId": "sess_ee8e8999-1074-4bcd-9f67-42b3b2c5ea5b",
+        "timestamp": 1790689062649
+      }
+    ],
+    "13.3 Implementar funções de API": [
+      {
+        "executionId": "0b3d7abc-abe5-4462-8f1f-d6b4978898de",
+        "chatSessionId": "sess_37c841c3-e554-4753-8412-2c341a63201d",
+        "timestamp": 1790680689733
+      },
+      {
+        "executionId": "15ce3892-2dca-40bf-aa00-6f5a28856e03",
+        "chatSessionId": "sess_ee8e8999-1074-4bcd-9f67-42b3b2c5ea5b",
+        "timestamp": 1790683810085
+      },
+      {
+        "executionId": "15ce3892-2dca-40bf-aa00-6f5a28856e03",
+        "chatSessionId": "sess_ee8e8999-1074-4bcd-9f67-42b3b2c5ea5b",
+        "timestamp": 1790684691104
+      },
+      {
+        "executionId": "15ce3892-2dca-40bf-aa00-6f5a28856e03",
+        "chatSessionId": "sess_ee8e8999-1074-4bcd-9f67-42b3b2c5ea5b",
+        "timestamp": 1790689066186
+      }
+    ],
+    "14.1 Implementar `ProtectedRoute`": [
+      {
+        "executionId": "0b3d7abc-abe5-4462-8f1f-d6b4978898de",
+        "chatSessionId": "sess_37c841c3-e554-4753-8412-2c341a63201d",
+        "timestamp": 1790680689771
+      },
+      {
+        "executionId": "15ce3892-2dca-40bf-aa00-6f5a28856e03",
+        "chatSessionId": "sess_ee8e8999-1074-4bcd-9f67-42b3b2c5ea5b",
+        "timestamp": 1790683810116
+      },
+      {
+        "executionId": "15ce3892-2dca-40bf-aa00-6f5a28856e03",
+        "chatSessionId": "sess_ee8e8999-1074-4bcd-9f67-42b3b2c5ea5b",
+        "timestamp": 1790689084345
+      },
+      {
+        "executionId": "d6a406d4-5e07-43f5-93a6-337c80850a61",
+        "chatSessionId": "sess_fbef26df-d20e-42e6-a6d1-efa038ca4849",
+        "timestamp": 1790698844785
+      }
+    ],
+    "14.2 Implementar `RoleGuard`": [
+      {
+        "executionId": "0b3d7abc-abe5-4462-8f1f-d6b4978898de",
+        "chatSessionId": "sess_37c841c3-e554-4753-8412-2c341a63201d",
+        "timestamp": 1790680689805
+      },
+      {
+        "executionId": "15ce3892-2dca-40bf-aa00-6f5a28856e03",
+        "chatSessionId": "sess_ee8e8999-1074-4bcd-9f67-42b3b2c5ea5b",
+        "timestamp": 1790683810154
+      },
+      {
+        "executionId": "d6a406d4-5e07-43f5-93a6-337c80850a61",
+        "chatSessionId": "sess_fbef26df-d20e-42e6-a6d1-efa038ca4849",
+        "timestamp": 1790698844819
+      }
+    ],
+    "14.3 Implementar componentes utilitários": [
+      {
+        "executionId": "0b3d7abc-abe5-4462-8f1f-d6b4978898de",
+        "chatSessionId": "sess_37c841c3-e554-4753-8412-2c341a63201d",
+        "timestamp": 1790680689838
+      },
+      {
+        "executionId": "15ce3892-2dca-40bf-aa00-6f5a28856e03",
+        "chatSessionId": "sess_ee8e8999-1074-4bcd-9f67-42b3b2c5ea5b",
+        "timestamp": 1790683810209
+      },
+      {
+        "executionId": "d6a406d4-5e07-43f5-93a6-337c80850a61",
+        "chatSessionId": "sess_fbef26df-d20e-42e6-a6d1-efa038ca4849",
+        "timestamp": 1790698844853
+      }
+    ],
+    "14.4 Configurar roteamento principal": [
+      {
+        "executionId": "0b3d7abc-abe5-4462-8f1f-d6b4978898de",
+        "chatSessionId": "sess_37c841c3-e554-4753-8412-2c341a63201d",
+        "timestamp": 1790680689874
+      },
+      {
+        "executionId": "15ce3892-2dca-40bf-aa00-6f5a28856e03",
+        "chatSessionId": "sess_ee8e8999-1074-4bcd-9f67-42b3b2c5ea5b",
+        "timestamp": 1790683810243
+      },
+      {
+        "executionId": "d6a406d4-5e07-43f5-93a6-337c80850a61",
+        "chatSessionId": "sess_fbef26df-d20e-42e6-a6d1-efa038ca4849",
+        "timestamp": 1790698844885
+      }
+    ],
+    "15.1 Implementar `LoginPage`": [
+      {
+        "executionId": "0b3d7abc-abe5-4462-8f1f-d6b4978898de",
+        "chatSessionId": "sess_37c841c3-e554-4753-8412-2c341a63201d",
+        "timestamp": 1790680689897
+      },
+      {
+        "executionId": "15ce3892-2dca-40bf-aa00-6f5a28856e03",
+        "chatSessionId": "sess_ee8e8999-1074-4bcd-9f67-42b3b2c5ea5b",
+        "timestamp": 1790683810276
+      },
+      {
+        "executionId": "d6a406d4-5e07-43f5-93a6-337c80850a61",
+        "chatSessionId": "sess_fbef26df-d20e-42e6-a6d1-efa038ca4849",
+        "timestamp": 1790698844925
+      }
+    ],
+    "16.1 Implementar `LaboratoryListPage`": [
+      {
+        "executionId": "0b3d7abc-abe5-4462-8f1f-d6b4978898de",
+        "chatSessionId": "sess_37c841c3-e554-4753-8412-2c341a63201d",
+        "timestamp": 1790680689924
+      },
+      {
+        "executionId": "15ce3892-2dca-40bf-aa00-6f5a28856e03",
+        "chatSessionId": "sess_ee8e8999-1074-4bcd-9f67-42b3b2c5ea5b",
+        "timestamp": 1790683810314
+      },
+      {
+        "executionId": "d6a406d4-5e07-43f5-93a6-337c80850a61",
+        "chatSessionId": "sess_fbef26df-d20e-42e6-a6d1-efa038ca4849",
+        "timestamp": 1790698844979
+      }
+    ],
+    "16.2 Implementar controle de ações por role na `LaboratoryListPage`": [
+      {
+        "executionId": "0b3d7abc-abe5-4462-8f1f-d6b4978898de",
+        "chatSessionId": "sess_37c841c3-e554-4753-8412-2c341a63201d",
+        "timestamp": 1790680689949
+      },
+      {
+        "executionId": "15ce3892-2dca-40bf-aa00-6f5a28856e03",
+        "chatSessionId": "sess_ee8e8999-1074-4bcd-9f67-42b3b2c5ea5b",
+        "timestamp": 1790683810343
+      },
+      {
+        "executionId": "d6a406d4-5e07-43f5-93a6-337c80850a61",
+        "chatSessionId": "sess_fbef26df-d20e-42e6-a6d1-efa038ca4849",
+        "timestamp": 1790698845010
+      }
+    ],
+    "17.1 Implementar `LaboratoryDetailPage`": [
+      {
+        "executionId": "0b3d7abc-abe5-4462-8f1f-d6b4978898de",
+        "chatSessionId": "sess_37c841c3-e554-4753-8412-2c341a63201d",
+        "timestamp": 1790680689988
+      },
+      {
+        "executionId": "15ce3892-2dca-40bf-aa00-6f5a28856e03",
+        "chatSessionId": "sess_ee8e8999-1074-4bcd-9f67-42b3b2c5ea5b",
+        "timestamp": 1790683810377
+      },
+      {
+        "executionId": "d6a406d4-5e07-43f5-93a6-337c80850a61",
+        "chatSessionId": "sess_fbef26df-d20e-42e6-a6d1-efa038ca4849",
+        "timestamp": 1790698845036
+      }
+    ],
+    "17.2 Implementar formulário de laboratório (criação e edição)": [
+      {
+        "executionId": "0b3d7abc-abe5-4462-8f1f-d6b4978898de",
+        "chatSessionId": "sess_37c841c3-e554-4753-8412-2c341a63201d",
+        "timestamp": 1790680690014
+      },
+      {
+        "executionId": "15ce3892-2dca-40bf-aa00-6f5a28856e03",
+        "chatSessionId": "sess_ee8e8999-1074-4bcd-9f67-42b3b2c5ea5b",
+        "timestamp": 1790683810399
+      },
+      {
+        "executionId": "d6a406d4-5e07-43f5-93a6-337c80850a61",
+        "chatSessionId": "sess_fbef26df-d20e-42e6-a6d1-efa038ca4849",
+        "timestamp": 1790698845071
+      }
+    ],
+    "17.3 Implementar exclusão de laboratório": [
+      {
+        "executionId": "0b3d7abc-abe5-4462-8f1f-d6b4978898de",
+        "chatSessionId": "sess_37c841c3-e554-4753-8412-2c341a63201d",
+        "timestamp": 1790680690040
+      },
+      {
+        "executionId": "15ce3892-2dca-40bf-aa00-6f5a28856e03",
+        "chatSessionId": "sess_ee8e8999-1074-4bcd-9f67-42b3b2c5ea5b",
+        "timestamp": 1790683810427
+      },
+      {
+        "executionId": "d6a406d4-5e07-43f5-93a6-337c80850a61",
+        "chatSessionId": "sess_fbef26df-d20e-42e6-a6d1-efa038ca4849",
+        "timestamp": 1790698845101
+      }
+    ],
+    "18.1 Implementar formulário de reserva (criação e edição)": [
+      {
+        "executionId": "0b3d7abc-abe5-4462-8f1f-d6b4978898de",
+        "chatSessionId": "sess_37c841c3-e554-4753-8412-2c341a63201d",
+        "timestamp": 1790680690071
+      },
+      {
+        "executionId": "15ce3892-2dca-40bf-aa00-6f5a28856e03",
+        "chatSessionId": "sess_ee8e8999-1074-4bcd-9f67-42b3b2c5ea5b",
+        "timestamp": 1790683810453
+      },
+      {
+        "executionId": "d6a406d4-5e07-43f5-93a6-337c80850a61",
+        "chatSessionId": "sess_fbef26df-d20e-42e6-a6d1-efa038ca4849",
+        "timestamp": 1790698845134
+      }
+    ],
+    "18.3 Implementar criação, edição e exclusão de reservas": [
+      {
+        "executionId": "0b3d7abc-abe5-4462-8f1f-d6b4978898de",
+        "chatSessionId": "sess_37c841c3-e554-4753-8412-2c341a63201d",
+        "timestamp": 1790680690106
+      },
+      {
+        "executionId": "15ce3892-2dca-40bf-aa00-6f5a28856e03",
+        "chatSessionId": "sess_ee8e8999-1074-4bcd-9f67-42b3b2c5ea5b",
+        "timestamp": 1790683810483
+      },
+      {
+        "executionId": "d6a406d4-5e07-43f5-93a6-337c80850a61",
+        "chatSessionId": "sess_fbef26df-d20e-42e6-a6d1-efa038ca4849",
+        "timestamp": 1790698845162
+      }
+    ],
+    "19.1 Aplicar classes responsivas do Tailwind CSS": [
+      {
+        "executionId": "0b3d7abc-abe5-4462-8f1f-d6b4978898de",
+        "chatSessionId": "sess_37c841c3-e554-4753-8412-2c341a63201d",
+        "timestamp": 1790680690142
+      },
+      {
+        "executionId": "15ce3892-2dca-40bf-aa00-6f5a28856e03",
+        "chatSessionId": "sess_ee8e8999-1074-4bcd-9f67-42b3b2c5ea5b",
+        "timestamp": 1790683810510
+      },
+      {
+        "executionId": "d6a406d4-5e07-43f5-93a6-337c80850a61",
+        "chatSessionId": "sess_fbef26df-d20e-42e6-a6d1-efa038ca4849",
+        "timestamp": 1790698845186
+      }
+    ],
+    "20. Checkpoint — Frontend completo": [
+      {
+        "executionId": "0b3d7abc-abe5-4462-8f1f-d6b4978898de",
+        "chatSessionId": "sess_37c841c3-e554-4753-8412-2c341a63201d",
+        "timestamp": 1790680690172
+      },
+      {
+        "executionId": "15ce3892-2dca-40bf-aa00-6f5a28856e03",
+        "chatSessionId": "sess_ee8e8999-1074-4bcd-9f67-42b3b2c5ea5b",
+        "timestamp": 1790683810535
+      },
+      {
+        "executionId": "d6a406d4-5e07-43f5-93a6-337c80850a61",
+        "chatSessionId": "sess_fbef26df-d20e-42e6-a6d1-efa038ca4849",
+        "timestamp": 1790698845217
+      }
+    ],
+    "2. Implementar modelo de dados e entidades JPA": [
+      {
+        "executionId": "15ce3892-2dca-40bf-aa00-6f5a28856e03",
+        "chatSessionId": "sess_ee8e8999-1074-4bcd-9f67-42b3b2c5ea5b",
+        "timestamp": 1790684583354
+      }
+    ],
+    "12. Definir tipos TypeScript": [
+      {
+        "executionId": "15ce3892-2dca-40bf-aa00-6f5a28856e03",
+        "chatSessionId": "sess_ee8e8999-1074-4bcd-9f67-42b3b2c5ea5b",
+        "timestamp": 1790684586560
+      }
+    ],
+    "13. Implementar cliente HTTP e store de autenticação": [
+      {
+        "executionId": "15ce3892-2dca-40bf-aa00-6f5a28856e03",
+        "chatSessionId": "sess_ee8e8999-1074-4bcd-9f67-42b3b2c5ea5b",
+        "timestamp": 1790689066242
+      }
+    ],
+    "3.2 Escrever property test para `JwtService` (Property 2)": [
+      {
+        "executionId": "20b4fcfe-7f0a-41c9-8c1d-02e7f382584c",
+        "chatSessionId": "sess_ee64f71b-ef8e-4da7-ac69-1af2312afe43",
+        "timestamp": 1790705475748
+      },
+      {
+        "executionId": "20b4fcfe-7f0a-41c9-8c1d-02e7f382584c",
+        "chatSessionId": "sess_ee64f71b-ef8e-4da7-ac69-1af2312afe43",
+        "timestamp": 1790706671068
+      }
+    ],
+    "3.4 Escrever property test para `SecurityFilter` (Property 3)": [
+      {
+        "executionId": "20b4fcfe-7f0a-41c9-8c1d-02e7f382584c",
+        "chatSessionId": "sess_ee64f71b-ef8e-4da7-ac69-1af2312afe43",
+        "timestamp": 1790705478397
+      },
+      {
+        "executionId": "20b4fcfe-7f0a-41c9-8c1d-02e7f382584c",
+        "chatSessionId": "sess_ee64f71b-ef8e-4da7-ac69-1af2312afe43",
+        "timestamp": 1790706674014
+      }
+    ],
+    "4.3 Escrever property test para `AuthService` (Property 1)": [
+      {
+        "executionId": "20b4fcfe-7f0a-41c9-8c1d-02e7f382584c",
+        "chatSessionId": "sess_ee64f71b-ef8e-4da7-ac69-1af2312afe43",
+        "timestamp": 1790705480953
+      },
+      {
+        "executionId": "20b4fcfe-7f0a-41c9-8c1d-02e7f382584c",
+        "chatSessionId": "sess_ee64f71b-ef8e-4da7-ac69-1af2312afe43",
+        "timestamp": 1790706678511
+      }
+    ],
+    "5.3 Escrever property test para `ErrorHandler` (Property 10)": [
+      {
+        "executionId": "20b4fcfe-7f0a-41c9-8c1d-02e7f382584c",
+        "chatSessionId": "sess_ee64f71b-ef8e-4da7-ac69-1af2312afe43",
+        "timestamp": 1790705483524
+      },
+      {
+        "executionId": "20b4fcfe-7f0a-41c9-8c1d-02e7f382584c",
+        "chatSessionId": "sess_ee64f71b-ef8e-4da7-ac69-1af2312afe43",
+        "timestamp": 1790706681281
+      }
+    ],
+    "7.4 Escrever property test para `LaboratoryService` (Property 4)": [
+      {
+        "executionId": "20b4fcfe-7f0a-41c9-8c1d-02e7f382584c",
+        "chatSessionId": "sess_ee64f71b-ef8e-4da7-ac69-1af2312afe43",
+        "timestamp": 1790705486419
+      },
+      {
+        "executionId": "20b4fcfe-7f0a-41c9-8c1d-02e7f382584c",
+        "chatSessionId": "sess_ee64f71b-ef8e-4da7-ac69-1af2312afe43",
+        "timestamp": 1790706684138
+      }
+    ],
+    "7.5 Escrever property test para `LaboratoryService` (Property 5)": [
+      {
+        "executionId": "20b4fcfe-7f0a-41c9-8c1d-02e7f382584c",
+        "chatSessionId": "sess_ee64f71b-ef8e-4da7-ac69-1af2312afe43",
+        "timestamp": 1790706687513
+      }
+    ],
+    "7.7 Escrever testes de unidade para `LaboratoryService`": [
+      {
+        "executionId": "20b4fcfe-7f0a-41c9-8c1d-02e7f382584c",
+        "chatSessionId": "sess_ee64f71b-ef8e-4da7-ac69-1af2312afe43",
+        "timestamp": 1790706690313
+      }
+    ],
+    "8.3 Escrever property test para `ReservationService` (Property 6)": [
+      {
+        "executionId": "20b4fcfe-7f0a-41c9-8c1d-02e7f382584c",
+        "chatSessionId": "sess_ee64f71b-ef8e-4da7-ac69-1af2312afe43",
+        "timestamp": 1790706693076
+      }
+    ],
+    "8.4 Escrever property test para `ReservationService` (Property 7)": [
+      {
+        "executionId": "20b4fcfe-7f0a-41c9-8c1d-02e7f382584c",
+        "chatSessionId": "sess_ee64f71b-ef8e-4da7-ac69-1af2312afe43",
+        "timestamp": 1790706695915
+      }
+    ],
+    "8.5 Escrever property test para `ReservationService` (Property 8)": [
+      {
+        "executionId": "20b4fcfe-7f0a-41c9-8c1d-02e7f382584c",
+        "chatSessionId": "sess_ee64f71b-ef8e-4da7-ac69-1af2312afe43",
+        "timestamp": 1790706698793
+      }
+    ]
+  }
+}
